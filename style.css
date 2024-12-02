@@ -253,6 +253,8 @@ input::placeholder{
 @media (max-width: 600px) {
     .flex-container {
         column-count: 2;
+        margin-left:0;
+        margin-top: 0;
     }
     .flex-item{
         width: 100%;
