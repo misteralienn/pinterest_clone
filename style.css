@@ -252,6 +252,15 @@ input::placeholder{
 
 @media (max-width: 600px) {
     .flex-container {
-        column-count: 1;
+        column-count: 2;
+    }
+    .flex-item{
+        width: 100%;
+    }
+    .side-widgets{
+        visibility: hidden;
+    }
+    header{
+        visibility: hidden;
     }
 }
