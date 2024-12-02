@@ -117,7 +117,7 @@ header{
     
 }
 .search{
-    height: 48px;
+    height: 47px;
     width: 1050px;
     margin-left: 15px;
     display: flex;
@@ -206,54 +206,26 @@ input::placeholder{
 .select:hover{
     background-color: rgb(217, 217, 217);
 }
-.flex-container{
-    height: 5700px;
-    width: 1100px;
+ main{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /* padding-right: 0; */
+ }
+ .flex-container{
+    column-count: 4;
+    column-gap: 10px;
+    width: 100%;
     margin-left: 72px;
     margin-top: 80px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 16px;
-    padding: 20px;
-}
-.content-main div{
+ }
+ .flex-item {
+    break-inside: avoid;
+    margin-bottom: 10px;
+ }
+ .flex-item img {
     width: 266px;
-}
-img{
-    width: 266px;
+    display: block;
     border-radius: 10px;
-}
-.flex-item1{
-    height: 476.51px;
-    border-radius: 10px;
-}
-.flex-item2{
-    height: 336.22px;
-    border-radius: 10px;
-}
-.flex-item3{
-    height: 251.54px;
-    border-radius: 10px;
-}
-.flex-item4{
-    height: 419.83px;
-    border-radius: 10px;
-}
-.flex-item5{
-    height: 354.73px;
-    border-radius: 10px;
-}
-.flex-item6{
-    height: 270px;
-    border-radius: 10px;
-}
-.flex-item7{
-    height: 523.08px;
-    border-radius: 10px;
-}
-.flex-item8{
-    height: 323.03px;
-    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5)
 }
